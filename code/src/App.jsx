@@ -1,8 +1,9 @@
-import './App.css'
+import './App.css';
 
 function App() {
   return (
-    <div className="">
+    <div className="container grid grid-cols-2 grid-gap">
+
       <div className="">
         <div className="icon"></div>
         <div className="lg-hero-text">
@@ -30,9 +31,13 @@ function App() {
       </div>
       
       {/* */}
-      
-      <div className="hero-img">
 
+      <div className="hero-img">
+        <img className='main-img' src="../src/assets/unsplash_QRWAdBCqysc.png" alt="" />
+        <img className='stroke' src="../src/assets/Stroke.png" alt="" />
+        <img src="../src/assets/Stroke-1.png" alt="" className="stroke-1" />
+        <img src="../src/assets/Star.png" alt="" />
+        <img src="../src/assets/Star-1.png" alt="" />
       </div>
     </div>
   )

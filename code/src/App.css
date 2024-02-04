@@ -1,0 +1,76 @@
+.container {
+    padding: 0 4%;
+}
+.grid {
+    display: grid;
+}
+.grid-gap {
+    gap: 4%;
+}
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+p {
+    margin: 0;
+}
+.lg-hero-text p:first-child {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+.lg-hero-text p:nth-child(2) {
+    color: #5e5e5e;
+    font-size: 26px;
+    margin-bottom: 6%;
+    font-family: sans-serif;
+}
+.btns a {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2% 6%;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btns a:first-child {
+    color: white;
+    background-color: black;
+    margin-right: 2%;
+}
+.btns a:nth-child(2) {
+    color: black;
+    background-color: white;
+}
+
+.hero-img {
+    position: relative;
+}
+.main-img {
+    z-index: 5;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.stroke {
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.stroke-1 {
+    z-index: 2;
+    position: absolute;
+    top: 80%;
+    left: 56%;
+}
+.star {
+    z-index: 99;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.star-1 {
+    z-index: 99;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
